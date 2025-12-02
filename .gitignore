@@ -1,0 +1,4 @@
+# Ignore .qwen directories
+.qwen/
+.specify/
+specs/
