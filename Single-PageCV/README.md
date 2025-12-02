@@ -1,5 +1,7 @@
 # Simple CV Page
 
+https://cv-sh-ggaa.vercel.app/
+
 This is a single HTML page that works as my online CV/resume. It's all in one file with my info that people can look at online.
 
 ## What it is
