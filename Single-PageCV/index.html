@@ -22,102 +22,108 @@
     <meta property="og:image" content="https://thomasscott.example.com/images/profile.jpg">
 </head>
 <body style="font-family: 'Inter', sans-serif;">
-    <div itemscope itemtype="http://schema.org/Person">
-        <header>
-            <h1 itemprop="name">Thomas Scott</h1>
-            <p itemprop="jobTitle">Senior Data Scientist & Business Consultant</p>
-            <p>Based in Phoenix, Arizona, USA</p>
-            <address>
-                <a href="mailto:thomas-scott@gmail.com" itemprop="email">thomas-scott@gmail.com</a> |
-                <a href="https://linkedin.com/in/thomas-scott" itemprop="url">LinkedIn</a> |
-                <a href="https://facebook.com/thomas-scott" itemprop="url">Facebook</a> |
-                <a href="https://twitter.com/thomasscott" itemprop="url">Twitter</a>
-            </address>
-        </header>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 25px; padding-top: 25px;">
+        <section id="image" style="margin-right: 25px; flex-shrink: 0; padding-top: 38px;">
+            <img src="images/kermit.jpg" alt="Thomas Scott - Professional Photo" style="width: 150px; height: 150px; object-fit: fill; border: 2px solid #ddd; border-radius: 4px;">
+        </section>
+        <div itemscope itemtype="http://schema.org/Person">
+            <header style="margin-bottom: 0; padding: 0;">
+                <h1 itemprop="name" style="color: #1a237e; font-size: 2.5em; margin-bottom: 5px;">Thomas Scott</h1>
+                <p itemprop="jobTitle" style="color: #4a148c; font-size: 1.5em; margin-bottom: 8px;">Senior Data Scientist & Business Consultant</p>
+                <p style="margin-bottom: 10px;">Based in Phoenix, Arizona, USA</p>
+                <address style="padding: 5px 0;">
+                    <a href="mailto:thomas-scott@gmail.com" itemprop="email">thomas-scott@gmail.com</a> |
+                    <a href="https://linkedin.com/in/thomas-scott" itemprop="url">LinkedIn</a> |
+                    <a href="https://facebook.com/thomas-scott" itemprop="url">Facebook</a> |
+                    <a href="https://twitter.com/thomasscott" itemprop="url">Twitter</a>
+                </address>
+            </header>
+        </div>
+    </div>
 
         <main>
-            <section id="profile">
-                <h2>Professional Profile</h2>
-                <p>Accomplished Data Scientist & Business Consultant adept at leveraging advanced analytics for strategic decision-making and optimizing business processes. Skilled in innovative problem-solving with strong communication abilities to convey insights.</p>
+            <section id="profile" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-bottom: 15px;">Professional Profile</h2>
+                <p style="padding-left: 10px;">Accomplished Data Scientist & Business Consultant adept at leveraging advanced analytics for strategic decision-making and optimizing business processes. Skilled in innovative problem-solving with strong communication abilities to convey insights.</p>
             </section>
 
-            <section id="career">
-                <h2>Work Experience</h2>
+            <section id="career" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px; margin-bottom: 15px;">Work Experience</h2>
 
-                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-                    <h3 itemprop="name">Data Scientist & Business Consultant at TechNova</h3>
-                    <p>Jun 2021 – Present, Phoenix, Arizona, USA</p>
-                    <p>Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance.</p>
+                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Data Scientist & Business Consultant at TechNova</h3>
+                    <p style="margin-bottom: 5px;">Jun 2021 – Present, Phoenix, Arizona, USA</p>
+                    <p style="padding-left: 10px;">Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance.</p>
                 </article>
 
-                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-                    <h3 itemprop="name">Data Analyst & Business Strategist at SwiftEdge</h3>
-                    <p>Oct 2017 – May 2021, Dallas, Texas, USA</p>
-                    <p>Skillfully combining data analysis proficiency with strategic business acumen, adeptly navigating complex datasets to inform strategic decision-making and drive organizational growth initiatives.</p>
+                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Data Analyst & Business Strategist at SwiftEdge</h3>
+                    <p style="margin-bottom: 5px;">Oct 2017 – May 2021, Dallas, Texas, USA</p>
+                    <p style="padding-left: 10px;">Skillfully combining data analysis proficiency with strategic business acumen, adeptly navigating complex datasets to inform strategic decision-making and drive organizational growth initiatives.</p>
                 </article>
 
-                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-                    <h3 itemprop="name">Analytics Specialist & Business Advisor at NexusWorks</h3>
-                    <p>Jan 2016 – Sep 2017, Houston, Texas, USA</p>
-                    <p>Leveraging specialized analytics expertise alongside strategic business advisory skills, providing actionable insights and guidance to optimize business performance and achieve strategic objectives.</p>
+                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Analytics Specialist & Business Advisor at NexusWorks</h3>
+                    <p style="margin-bottom: 5px;">Jan 2016 – Sep 2017, Houston, Texas, USA</p>
+                    <p style="padding-left: 10px;">Leveraging specialized analytics expertise alongside strategic business advisory skills, providing actionable insights and guidance to optimize business performance and achieve strategic objectives.</p>
                 </article>
 
-                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-                    <h3 itemprop="name">Business Consultant & Analytics Expert at ProActive</h3>
-                    <p>Aug 2014 – Jan 2016, Newark, New Jersey, USA</p>
-                    <p>Seamlessly integrating business consulting prowess with advanced analytics expertise, delivering tailored solutions and actionable insights to drive organizational success and enhance strategic decision-making processes.</p>
-                </article>
-            </section>
-
-            <section id="education">
-                <h2>Education</h2>
-
-                <article itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-                    <h3 itemprop="name">Princeton University</h3>
-                    <p>Master's degree in Data Science - Jun 2021 – Present</p>
-                </article>
-
-                <article itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
-                    <h3 itemprop="name">Montclair State University</h3>
-                    <p>Bachelor's degree in Artificial Intelligence - Jun 2021 – Present</p>
+                <article itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Business Consultant & Analytics Expert at ProActive</h3>
+                    <p style="margin-bottom: 5px;">Aug 2014 – Jan 2016, Newark, New Jersey, USA</p>
+                    <p style="padding-left: 10px;">Seamlessly integrating business consulting prowess with advanced analytics expertise, delivering tailored solutions and actionable insights to drive organizational success and enhance strategic decision-making processes.</p>
                 </article>
             </section>
 
-            <section id="skills">
-                <h2>Top Skills</h2>
-                <dl>
-                    <dt>Technical Skills:</dt>
-                    <dd>Data Analysis, Machine Learning, Statistical Modeling, Data Visualization, Big Data Analytics, Predictive Modeling, Deep Learning, Data Mining, Statistical Inference, Hypothesis Testing, Data Cleaning</dd>
-                    <dt>Business Skills:</dt>
-                    <dd>Strategic Planning, Business Analysis, Market Research, Financial Analysis, Problem-Solving, Project Management, Risk Assessment</dd>
+            <section id="education" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px; margin-bottom: 15px;">Education</h2>
+
+                <article itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Princeton University</h3>
+                    <p style="margin-bottom: 5px;">Master's degree in Data Science - Jun 2021 – Present</p>
+                </article>
+
+                <article itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization" style="margin-bottom: 15px;">
+                    <h3 style="color: #7f8c8d; margin-bottom: 5px;">Montclair State University</h3>
+                    <p style="margin-bottom: 5px;">Bachelor's degree in Artificial Intelligence - Jun 2021 – Present</p>
+                </article>
+            </section>
+
+            <section id="skills" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px; margin-bottom: 15px;">Top Skills</h2>
+                <dl style="padding-left: 10px;">
+                    <dt style="color: #8e44ad; margin-bottom: 5px;">Technical Skills:</dt>
+                    <dd style="margin-bottom: 10px;">Data Analysis, Machine Learning, Statistical Modeling, Data Visualization, Big Data Analytics, Predictive Modeling, Deep Learning, Data Mining, Statistical Inference, Hypothesis Testing, Data Cleaning</dd>
+                    <dt style="color: #8e44ad; margin-bottom: 5px;">Business Skills:</dt>
+                    <dd style="margin-bottom: 10px;">Strategic Planning, Business Analysis, Market Research, Financial Analysis, Problem-Solving, Project Management, Risk Assessment</dd>
                 </dl>
             </section>
 
-            <section id="languages">
-                <h2>Languages</h2>
-                <dl>
-                    <dt>English:</dt>
-                    <dd>Native or bilingual proficiency</dd>
-                    <dt>French:</dt>
-                    <dd>Professional working proficiency</dd>
-                    <dt>Spanish:</dt>
-                    <dd>Elementary proficiency</dd>
+            <section id="languages" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #1abc9c; padding-bottom: 10px; margin-bottom: 15px;">Languages</h2>
+                <dl style="padding-left: 10px;">
+                    <dt style="color: #8e44ad; margin-bottom: 5px;">English:</dt>
+                    <dd style="margin-bottom: 10px;">Native or bilingual proficiency</dd>
+                    <dt style="color: #8e44ad; margin-bottom: 5px;">French:</dt>
+                    <dd style="margin-bottom: 10px;">Professional working proficiency</dd>
+                    <dt style="color: #8e44ad; margin-bottom: 5px;">Spanish:</dt>
+                    <dd style="margin-bottom: 10px;">Elementary proficiency</dd>
                 </dl>
             </section>
 
-            <section id="certifications">
-                <h2>Licenses & Certifications</h2>
-                <ul>
-                    <li><strong>Data Analysis & Visualization</strong> - NexusWorks, Issued Jan 2024</li>
-                    <li><strong>Data Analysis Professional</strong> - StellarWave, Issued Nov 2023</li>
-                    <li><strong>Data Analytics Mastery</strong> - BrightByte, Issued Aug 2023</li>
-                    <li><strong>Strategic Business Consulting</strong> - DataSpark, Issued Feb 2023</li>
+            <section id="certifications" style="margin-bottom: 25px;">
+                <h2 style="color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px; margin-bottom: 15px;">Licenses & Certifications</h2>
+                <ul style="padding-left: 20px;">
+                    <li style="color: #2c3e50; margin-bottom: 8px;"><strong>Data Analysis & Visualization</strong> - NexusWorks, Issued Jan 2024</li>
+                    <li style="color: #2c3e50; margin-bottom: 8px;"><strong>Data Analysis Professional</strong> - StellarWave, Issued Nov 2023</li>
+                    <li style="color: #2c3e50; margin-bottom: 8px;"><strong>Data Analytics Mastery</strong> - BrightByte, Issued Aug 2023</li>
+                    <li style="color: #2c3e50; margin-bottom: 8px;"><strong>Strategic Business Consulting</strong> - DataSpark, Issued Feb 2023</li>
                 </ul>
             </section>
         </main>
 
-        <footer>
-            <p>Last updated: <time datetime="2025-12-02">December 2, 2025</time></p>
+        <footer style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee;">
+            <p style="text-align: center; color: #7f8c8d; font-size: 0.9em;">Last updated: <time datetime="2025-12-02">December 2, 2025</time></p>
         </footer>
     </div>
 </body>
